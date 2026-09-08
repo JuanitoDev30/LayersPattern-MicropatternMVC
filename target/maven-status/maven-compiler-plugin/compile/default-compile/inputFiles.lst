@@ -1,0 +1,14 @@
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/QuestionState.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/QuestionStatistics.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/infra/Subject.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/access/QuestionImplRepository.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/presentation/GUIObserver2.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/infra/Observer.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/Main.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/presentation/GUIObserver1.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/QuestionDistractors.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/QuestionRepository.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/presentation/GUIQuestions.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/Question.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/QuestionService.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/presentation/QuestionController.java

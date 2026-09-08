@@ -1,0 +1,10 @@
+Snap.class
+co/edu/unicauca/bancopreguntas/domain/QuestionDistractorsTest.class
+co/edu/unicauca/bancopreguntas/domain/QuestionTest.class
+co/edu/unicauca/bancopreguntas/access/QuestionImplRepositoryTest.class
+co/edu/unicauca/bancopreguntas/domain/FakeQuestionRepository.class
+co/edu/unicauca/bancopreguntas/domain/QuestionServiceTest.class
+co/edu/unicauca/bancopreguntas/infra/SubjectTest.class
+co/edu/unicauca/bancopreguntas/domain/QuestionStatisticsTest.class
+co/edu/unicauca/bancopreguntas/infra/SubjectTest$RecordingObserver.class
+co/edu/unicauca/bancopreguntas/domain/QuestionServiceTest$SpyObserver.class

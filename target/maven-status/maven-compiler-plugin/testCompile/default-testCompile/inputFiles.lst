@@ -1,0 +1,7 @@
+/home/walter/Documentos/Java/PatronCapas/src/test/java/co/edu/unicauca/bancopreguntas/domain/QuestionTest.java
+/home/walter/Documentos/Java/PatronCapas/src/test/java/co/edu/unicauca/bancopreguntas/access/QuestionImplRepositoryTest.java
+/home/walter/Documentos/Java/PatronCapas/src/test/java/co/edu/unicauca/bancopreguntas/domain/FakeQuestionRepository.java
+/home/walter/Documentos/Java/PatronCapas/src/test/java/co/edu/unicauca/bancopreguntas/infra/SubjectTest.java
+/home/walter/Documentos/Java/PatronCapas/src/test/java/co/edu/unicauca/bancopreguntas/domain/QuestionDistractorsTest.java
+/home/walter/Documentos/Java/PatronCapas/src/test/java/co/edu/unicauca/bancopreguntas/domain/QuestionServiceTest.java
+/home/walter/Documentos/Java/PatronCapas/src/test/java/co/edu/unicauca/bancopreguntas/domain/QuestionStatisticsTest.java
