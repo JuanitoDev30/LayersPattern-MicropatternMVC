@@ -1,7 +1,7 @@
 package co.edu.unicauca.bancopreguntas.presentation;
 
 import co.edu.unicauca.bancopreguntas.domain.Question;
-import co.edu.unicauca.bancopreguntas.domain.QuestionService;
+import co.edu.unicauca.bancopreguntas.domain.IQuestionService;
 import co.edu.unicauca.bancopreguntas.domain.QuestionState;
 import co.edu.unicauca.bancopreguntas.domain.QuestionStatistics;
 
@@ -16,15 +16,16 @@ import java.util.Optional;
  * servicio de dominio.
  *
  * SRP: no contiene reglas de negocio ni codigo de dibujo, solo coordina.
+ * DIP: depende de la abstraccion IQuestionService, que recibe por constructor.
  */
 public class QuestionController {
 
-    private final QuestionService service;
+    private final IQuestionService service;
 
     /**
-     * @param service modelo del MVC (servicio de dominio y sujeto observable).
+     * @param service modelo del MVC (abstraccion del servicio de dominio).
      */
-    public QuestionController(QuestionService service) {
+    public QuestionController(IQuestionService service) {
         if (service == null) {
             throw new IllegalArgumentException("El servicio es obligatorio");
         }

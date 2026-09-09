@@ -14,10 +14,11 @@ import java.util.Optional;
  * logica de negocio y, al extender Subject, actua como sujeto observable: cada
  * vez que cambia el estado de una pregunta notifica a las vistas registradas.
  *
- * DIP: recibe el repositorio por constructor a traves de su abstraccion.
+ * DIP: recibe el repositorio por constructor a traves de su abstraccion y
+ * publica sus operaciones de negocio mediante la interfaz IQuestionService.
  * SRP: no dibuja interfaces ni sabe como se persisten los datos.
  */
-public class QuestionService extends Subject {
+public class QuestionService extends Subject implements IQuestionService {
 
     private final QuestionRepository repository;
 
@@ -34,6 +35,7 @@ public class QuestionService extends Subject {
     /**
      * @return todas las preguntas del banco.
      */
+    @Override
     public List<Question> listQuestions() {
         return repository.findAll();
     }
@@ -42,6 +44,7 @@ public class QuestionService extends Subject {
      * @param id identificador de la pregunta.
      * @return la pregunta si existe.
      */
+    @Override
     public Optional<Question> findById(String id) {
         if (id == null || id.isBlank()) {
             return Optional.empty();
@@ -55,6 +58,7 @@ public class QuestionService extends Subject {
      * @param question pregunta a registrar.
      * @return true si se registro.
      */
+    @Override
     public boolean registerQuestion(Question question) {
         if (question == null) {
             throw new IllegalArgumentException("La pregunta es obligatoria");
@@ -75,6 +79,7 @@ public class QuestionService extends Subject {
      * @return true si el estado se actualizo.
      * @throws IllegalStateException si la transicion no es valida.
      */
+    @Override
     public boolean changeState(String id, QuestionState newState) {
         Optional<Question> found = findById(id);
         if (found.isEmpty()) {
@@ -94,6 +99,7 @@ public class QuestionService extends Subject {
      *
      * @return estadisticas del banco de preguntas.
      */
+    @Override
     public QuestionStatistics getStatistics() {
         Map<QuestionState, Integer> counts = new EnumMap<>(QuestionState.class);
         for (QuestionState state : QuestionState.values()) {

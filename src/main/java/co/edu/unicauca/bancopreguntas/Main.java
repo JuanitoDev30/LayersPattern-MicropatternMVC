@@ -36,10 +36,13 @@ public final class Main {
         // Capa de acceso a datos.
         QuestionRepository repository = new QuestionImplRepository();
 
-        // Capa de dominio: modelo del MVC y sujeto observable.
+        // Capa de dominio: modelo del MVC y sujeto observable. Es el unico
+        // punto donde se usa el tipo concreto, porque aqui se resuelven las
+        // dependencias y se registran los observadores.
         QuestionService service = new QuestionService(repository);
 
-        // Capa de presentacion: controlador y vistas.
+        // Capa de presentacion: el controlador solo ve la abstraccion
+        // IQuestionService, no la implementacion.
         QuestionController controller = new QuestionController(service);
         GUIQuestions mainView = new GUIQuestions(controller);
         GUIObserver1 statisticsView = new GUIObserver1();

@@ -3,6 +3,7 @@ co/edu/unicauca/bancopreguntas/presentation/GUIQuestions.class
 co/edu/unicauca/bancopreguntas/domain/QuestionDistractors.class
 co/edu/unicauca/bancopreguntas/Main.class
 co/edu/unicauca/bancopreguntas/presentation/QuestionController.class
+co/edu/unicauca/bancopreguntas/domain/IQuestionService.class
 co/edu/unicauca/bancopreguntas/presentation/GUIObserver2$SwatchIcon.class
 co/edu/unicauca/bancopreguntas/domain/QuestionState.class
 co/edu/unicauca/bancopreguntas/infra/Subject.class
