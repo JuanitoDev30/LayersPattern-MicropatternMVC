@@ -9,6 +9,7 @@
 /home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/QuestionDistractors.java
 /home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/QuestionRepository.java
 /home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/presentation/GUIQuestions.java
+/home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/IQuestionService.java
 /home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/Question.java
 /home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/domain/QuestionService.java
 /home/walter/Documentos/Java/PatronCapas/src/main/java/co/edu/unicauca/bancopreguntas/presentation/QuestionController.java
